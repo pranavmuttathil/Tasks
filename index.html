@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #first-table{
+      background-color: aquamarine;
+    }
+    .info{
+      background-color: antiquewhite;
+      margin-right: 80%;
+    }
+    
+    #form-title{
+      font-size: 20px
+    }
+
+    #secondtable {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 4px solid black;
+    }
+
+    #addresss{
+      padding: 50px;
+    }
+    #addresss-input{
+      width: 200px;
+      height: 120px;
+    }
+
+    #second-table-td {
+      border-radius: 20px; 
+    }
+
+    #tb{
+      border: 5px solid black;
+      background-color:wheat
+    }
+    
+    .navbar-div {
+      width: 500px; 
+      } 
+    .navbar {
+      overflow: hidden;
+      list-style-type: none;
+      display: flex;
+      border: 4px solid black;
+    }
+    .navbar li:hover{
+      background-color:rgb(179, 166, 166);
+    }
+    .navbar li{
+        flex:1;
+    }
+    li {
+      border: 2px solid black;
+    }
+
+  </style>
+</head>
+<body>
+  <h2>Task 1</h2>
+  <table id="tb">
+    <tr id="first-table">
+      <td>First name</td>
+      <td>Last name</td>
+      <td>Age name</td>
+    </tr>
+    <tr id="first-table">
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr id="first-table">
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr id="first-table">
+      <td>John</td>
+      <td>Doe</td>
+      <td>84</td>
+    </tr>
+  </table>
+
+<h2>Task two</h2>
+
+
+
+<ul>
+  <li>Tea</li>
+  <ul>
+    <li>Black Tea</li>
+    <li>Green Tea</li>
+  </ul>
+  <li>Espresso</li>
+  <li>Coffee</li>
+</ul>
+
+<h2>Task Three</h2>
+<div class="info">
+  <h3>Click any of the links below</h3>
+  <div class="links">
+    <p><a href="https://youtube.com/" target="_blank">Opens in New</a></p>
+    <p><a href="https://youtube.com/" target="_self">Opens in Self<a></p>
+    <p>Opens in Parent</p>
+    <p>Opens in Body</p>
+    <a href="mailto:name@gmail.com">Send Email</a>>
+  </div>
+</div>
+
+<h2>Task Four</h2>
+<form>
+  Full name: <input type:"text" name="fname"><br>
+  Username: <input type:"text" name="uname"><br>
+  Password: <input type:"Password" name="password"><br>
+  Re Password: <input type:"Password" name="repassword"><br>
+  Address: <input type:"text" name="address"><br>
+  Age: <input type:"number" name="age"><br>
+  Gender:
+  <select name="gender" id="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select>
+</form>
+
+<h2>Task Five</h2>
+<h3 id="form-title">Registration Form</h3>
+<table id="secondtable">
+  <tr>
+    <td>First name</td>
+    <td><input type="text"></td>
+  </tr>
+  <tr>
+    <td>Last Name</td>
+    <td><input type="text"></td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td><input type="email"></td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td><input type="password"></td>
+  </tr>
+  <tr>
+    <td>Re Password</td>
+    <td><input type="password"></td>
+  </tr>
+  <tr >
+    <td id="addresss">Address</td>
+    <td><input type="text" id="addresss-input"></td>
+  </tr>
+</table>
+
+
+<h1>CSS Tasks</h1>
+<h2>TASK 1</h2>
+<table id="tb">
+  <tr id="second-table">
+    <td id="second-table-td">First name</td>
+    <td id="second-table-td">Last name</td>
+    <td id="second-table-td">Age name</td>
+  </tr>
+  <tr id="second-table">
+    <td id="second-table-td">Jill</td>
+    <td id="second-table-td">Smith</td>
+    <td id="second-table-td">50</td>
+  </tr>
+  <tr id="second-table">
+    <td id="second-table-td">Eve</td>
+    <td id="second-table-td">Jackson</td>
+    <td id="second-table-td">94</td>
+  </tr>
+  <tr id="second-table">
+    <td id="second-table-td">John</td>
+    <td id="second-table-td">Doe</td>
+    <td id="second-table-td">84</td>
+  </tr>
+</table>
+
+<h2>TASK 2</h2>
+
+<div class="navbar-div">
+  <ul class="navbar">
+    <li>Home</li>
+    <li>Java</li>
+    <li>CSS</li>
+    <li>HTML</li>
+    <li>Bootstrap</li>
+  </ul>
+</div>
+
+
+</body>
+</html>
